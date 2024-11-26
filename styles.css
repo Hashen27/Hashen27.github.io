@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+.fontfam { 
+  font-family: "Saira", sans-serif;
+}
+
+.background-section {
+    background: linear-gradient(to bottom,  #1b1b1b, #1b1b1b);
+}
+ 
+.navbar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1020; /* Ensures it stays above other elements */
+}
+
+.bg-orange {
+  background-color: #4C0070 !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #b70596 !important;
+}
+
+.text-custom {
+  color: #9A0680;
+}
+
+
+
+
+
+
+.neon-effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+
+.neon-effect:hover {
+  transform: scale(1.05);
+}
+
+
+.neon-effect2 {
+  border-radius: 50%;
+  box-shadow: 
+    0 0 20px #4C0070,
+    0 0 40px #79018C,
+    0 0 60px #9A0680;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+
+
+/* Default card background color */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Moves the card slightly upwards */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+}
+
+.card-body {
+  transition: background-color 0.3s ease;
+}
+
+.card:hover .card-body {
+  background-color: #79018C; /* Changes the background color of the card body on hover */
+}
+
+
+
+
+/* styles.css */
+.image-container {
+  border: 2px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.image-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+a button {
+  background-color: #79018C; /* Set the background color */
+  color: white;             /* White text color */
+  border: none;             /* Remove border */
+  border-radius: 5px;       /* Rounded corners */
+  padding: 10px 20px;       /* Padding for better size */
+  font-size: 16px;          /* Font size for readability */
+  font-weight: bold;        /* Bold text */
+  cursor: pointer;          /* Pointer cursor on hover */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+a button:hover {
+  background-color: #59016A; /* Darker shade on hover */
+  color: #F5E6FF;            /* Slightly different white shade for hover text */
+  transform: scale(1.05);    /* Subtle zoom effect on hover */
+}
+
+a {
+  text-decoration: none; /* Remove underline from the link */
+}
