@@ -10,10 +10,10 @@
 }
  
 .navbar {
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1020; /* Ensures it stays above other elements */
+  z-index: 1020;
 }
 
 .bg-orange {
@@ -32,20 +32,13 @@
   color: #9A0680;
 }
 
-
-
-
-
-
 .neon-effect {
   transition: transform 0.3s ease-in-out;
 }
 
-
 .neon-effect:hover {
   transform: scale(1.05);
 }
-
 
 .neon-effect2 {
   border-radius: 50%;
@@ -56,17 +49,13 @@
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-
-
-
-/* Default card background color */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-10px); /* Moves the card slightly upwards */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Adds shadow on hover */
+  transform: translateY(-10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .card-body {
@@ -74,13 +63,18 @@
 }
 
 .card:hover .card-body {
-  background-color: #79018C; /* Changes the background color of the card body on hover */
+  background-color: #79018C;
 }
 
+.lecimg {
+  padding: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
+.lecimg:hover {
+  transform: scale(1.05);
+}
 
-
-/* styles.css */
 .image-container {
   border: 2px solid #ccc;
   padding: 10px;
@@ -93,26 +87,31 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-
-
 a button {
-  background-color: #79018C; /* Set the background color */
-  color: white;             /* White text color */
-  border: none;             /* Remove border */
-  border-radius: 5px;       /* Rounded corners */
-  padding: 10px 20px;       /* Padding for better size */
-  font-size: 16px;          /* Font size for readability */
-  font-weight: bold;        /* Bold text */
-  cursor: pointer;          /* Pointer cursor on hover */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  background-color: #79018C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 a button:hover {
-  background-color: #59016A; /* Darker shade on hover */
-  color: #F5E6FF;            /* Slightly different white shade for hover text */
-  transform: scale(1.05);    /* Subtle zoom effect on hover */
+  background-color: #59016A;
+  color: #F5E6FF;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 a {
-  text-decoration: none; /* Remove underline from the link */
+  text-decoration: none;
+}
+
+.custom-line {
+  border: 0;
+  border-top: 4px solid #b70596;
+  opacity: 1;
 }
